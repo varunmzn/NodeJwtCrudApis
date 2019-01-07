@@ -1,0 +1,36 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ve-ankitgupta/ems.git"
+  },
+  "author": "Ankit Gupta <ankitgupta1@virtualemployee.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ve-ankitgupta/ems/issues"
+  },
+  "homepage": "https://github.com/ve-ankitgupta/ems#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
